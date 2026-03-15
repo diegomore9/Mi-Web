@@ -24,7 +24,7 @@ header{
 
 /* Contenido principal */
 main{
-    padding:40px;
+    padding:52px;
     text-align:center;
 }
 
