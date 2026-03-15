@@ -1,44 +1,63 @@
 # Mi-Web
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Mi primera web</title>
-<meta charset="UTF-8">
-<style>
-body{
-    font-family: Arial;
-    text-align: center;
-    background-color: #f2f2f2;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptiWind</title>
+  <style>
+    /* Reset básico */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
-h1{
-    color: #2c3e50;
-}
+    /* Encabezado superior */
+    header {
+      background-color: #ffffff; /* blanco */
+      color: #000000; /* negro */
+      text-align: center;
+      padding: 20px 0;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* sombra sutil */
+    }
 
-p{
-    font-size: 18px;
-}
+    /* Contenido central */
+    main {
+      min-height: 400px; /* puedes ajustar según tu contenido */
+      padding: 20px;
+      text-align: center;
+    }
 
-button{
-    padding: 10px 20px;
-    font-size: 16px;
-    background: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-</style>
+    /* Pie de página */
+    footer {
+      background-color: #ff0000; /* rojo */
+      color: #ffffff; /* texto blanco */
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.2rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
-
 <body>
 
-<h1>Mi primera página web</h1>
+  <header>
+    OptiWind
+  </header>
 
-<p>Esta es mi primera web creada desde cero.</p>
+  <main>
+    <!-- Aquí puedes poner el contenido de tu página -->
+    <p>Bienvenido a OptiWind</p>
+  </main>
 
-<button onclick="alert('Hola! Gracias por visitar mi web')">
-Haz clic aquí
-</button>
+  <footer>
+    Contacta con nosotros
+  </footer>
 
 </body>
 </html>
