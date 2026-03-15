@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -84,7 +83,6 @@ OptiWind
 
 <main>
 
-<h1>Bienvenido a OptiWind</h1>
 
 <section class="servicios">
 
@@ -93,8 +91,8 @@ OptiWind
 <h3>Optimizador de parques eólicos</h3>
 
 <p>
-Nuestro sistema analiza datos de viento, producción y eficiencia para mejorar el rendimiento de los parques eólicos. 
-Mediante análisis de datos y optimización operativa ayudamos a maximizar la generación energética y reducir pérdidas.
+Nuestro sistema analiza datos de viento, el terreno y la eficiencia para mejorar el rendimiento de los parques eólicos. 
+Mediante análisis de datos y optimización del yaw operativa ayudamos a maximizar la generación energética y reducir pérdidas.
 </p>
 
 <a class="linkedin-btn" href="https://www.linkedin.com/in/cesar-saenz-de-jubera-60730735a/" target="_blank">
