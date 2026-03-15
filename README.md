@@ -16,29 +16,26 @@ header{
     background:white;
     color:black;
     text-align:center;
-    padding:35px;
-    font-size:70px; /* OptiWind mucho más grande */
+    padding:40px;
+    font-size:80px;
     font-weight:bold;
     border-bottom:1px solid #ddd;
 }
 
-/* Contenido principal */
+/* Contenido */
 main{
     padding:52px;
     text-align:center;
 }
 
-/* Sección servicios */
+/* Servicios */
+
 .servicios{
     margin-top:30px;
 }
 
 .servicios h2{
     font-size:32px;
-}
-
-.servicios h3{
-    font-size:24px;
 }
 
 .servicios p{
@@ -61,8 +58,20 @@ main{
     font-weight:bold;
 }
 
-.linkedin-btn:hover{
-    background:#005e8a;
+/* Rectángulo LinkedIn */
+
+.linkedin-post{
+    margin-top:60px;
+}
+
+.post-box{
+    display:flex;
+    justify-content:center;
+}
+
+.post-box iframe{
+    border-radius:8px;
+    border:1px solid #ddd;
 }
 
 /* Footer */
@@ -94,13 +103,30 @@ OptiWind
 <h3>Optimizador de parques eólicos</h3>
 
 <p>
-Nuestro sistema analiza datos de viento, el terreno y la eficiencia para mejorar el rendimiento de los parques eólicos. 
+Nuestro sistema analiza datos de viento, el terreno y la eficiencia para mejorar el rendimiento de los parques eólicos.
 Mediante análisis de datos y optimización del yaw operativa ayudamos a maximizar la generación energética y reducir pérdidas.
 </p>
 
 <a class="linkedin-btn" href="https://www.linkedin.com/in/cesar-saenz-de-jubera-60730735a/" target="_blank">
 Visitar LinkedIn
 </a>
+
+</section>
+
+<section class="linkedin-post">
+
+<h2>Última publicación</h2>
+
+<div class="post-box">
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7435656820255428609"
+height="650"
+width="504"
+frameborder="0"
+allowfullscreen=""
+title="Publicación LinkedIn"></iframe>
+
+</div>
 
 </section>
 
