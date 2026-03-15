@@ -16,8 +16,8 @@ header{
     background:white;
     color:black;
     text-align:center;
-    padding:25px;
-    font-size:32px;
+    padding:35px;
+    font-size:70px; /* OptiWind mucho más grande */
     font-weight:bold;
     border-bottom:1px solid #ddd;
 }
@@ -34,7 +34,11 @@ main{
 }
 
 .servicios h2{
-    font-size:28px;
+    font-size:32px;
+}
+
+.servicios h3{
+    font-size:24px;
 }
 
 .servicios p{
@@ -82,7 +86,6 @@ OptiWind
 </header>
 
 <main>
-
 
 <section class="servicios">
 
