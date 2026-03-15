@@ -1,62 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OptiWind</title>
-  <style>
-    /* Reset básico */
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OptiWind</title>
 
-    /* Encabezado superior */
-    header {
-      background-color: #ffffff; /* blanco */
-      color: #000000; /* negro */
-      text-align: center;
-      padding: 20px 0;
-      font-size: 2rem;
-      font-weight: bold;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* sombra sutil */
-    }
+<style>
 
-    /* Contenido central */
-    main {
-      min-height: 400px; /* puedes ajustar según tu contenido */
-      padding: 20px;
-      text-align: center;
-    }
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
 
-    /* Pie de página */
-    footer {
-      background-color: #ff0000; /* rojo */
-      color: #ffffff; /* texto blanco */
-      text-align: center;
-      padding: 20px 0;
-      font-size: 1.2rem;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+/* Header */
+header{
+    background:white;
+    color:black;
+    text-align:center;
+    padding:25px;
+    font-size:32px;
+    font-weight:bold;
+    border-bottom:1px solid #ddd;
+}
+
+/* Contenido principal */
+main{
+    padding:40px;
+    text-align:center;
+}
+
+/* Sección servicios */
+.servicios{
+    margin-top:30px;
+}
+
+.servicios h2{
+    font-size:28px;
+}
+
+.servicios p{
+    max-width:600px;
+    margin:auto;
+    margin-top:10px;
+    line-height:1.6;
+}
+
+/* Botón LinkedIn */
+
+.linkedin-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 20px;
+    background:#0077b5;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.linkedin-btn:hover{
+    background:#005e8a;
+}
+
+/* Footer */
+
+footer{
+    background:red;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    width:100%;
+}
+
+</style>
 </head>
+
 <body>
 
-  <header>
-    OptiWind
-  </header>
+<header>
+OptiWind
+</header>
 
-  <main>
-    <!-- Aquí puedes poner el contenido de tu página -->
-    <p>Bienvenido a OptiWind</p>
-  </main>
+<main>
 
-  <footer>
-    Contacta con nosotros
-  </footer>
+<h1>Bienvenido a OptiWind</h1>
+
+<section class="servicios">
+
+<h2>Sección de Servicios</h2>
+
+<h3>Optimizador de parques eólicos</h3>
+
+<p>
+Nuestro sistema analiza datos de viento, producción y eficiencia para mejorar el rendimiento de los parques eólicos. 
+Mediante análisis de datos y optimización operativa ayudamos a maximizar la generación energética y reducir pérdidas.
+</p>
+
+<a class="linkedin-btn" href="https://www.linkedin.com/in/cesar-saenz-de-jubera-60730735a/" target="_blank">
+Visitar LinkedIn
+</a>
+
+</section>
+
+</main>
+
+<footer>
+Contacta con nosotros
+</footer>
 
 </body>
 </html>
